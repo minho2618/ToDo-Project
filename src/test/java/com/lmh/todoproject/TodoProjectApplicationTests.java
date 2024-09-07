@@ -1,10 +1,10 @@
-package com.lmh.accountbook;
+package com.lmh.todoproject;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AccountBookApplicationTests {
+class TodoProjectApplicationTests {
 
     @Test
     void contextLoads() {

@@ -1,13 +1,11 @@
-package com.lmh.accountbook;
+package com.lmh.todoproject;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AccountBookApplication {
-
+public class TodoProjectApplication {
     public static void main(String[] args) {
-        SpringApplication.run(AccountBookApplication.class, args);
+        SpringApplication.run(TodoProjectApplication.class, args);
     }
-
 }
