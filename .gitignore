@@ -1,3 +1,4 @@
+# 공통 무시 항목
 HELP.md
 .gradle
 build/
@@ -35,3 +36,59 @@ out/
 
 ### VS Code ###
 .vscode/
+
+#########################
+# React (frontend 폴더) #
+#########################
+
+# dependency
+/frontend/node_modules/
+
+# production
+/frontend/build/
+
+# misc
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# logs
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/pnpm-debug.log*
+
+# testing
+/frontend/coverage/
+
+# IDE
+/frontend/.idea/
+/frontend/.vscode/
+/frontend/*.sublime-project
+/frontend/*.sublime-workspace
+
+##########################
+# Spring (backend 폴더)  #
+##########################
+
+# dependency and build
+/backend/.gradle
+/backend/build/
+
+# IDE
+/backend/.idea/
+/backend/.vscode/
+/backend/*.iml
+
+# logs
+/backend/logs/
+/backend/*.log
+
+# environment files
+/backend/.env
+/backend/.env.*
+
+# runtime files
+/backend/tmp/
+/backend/out/
